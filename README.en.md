@@ -17,6 +17,18 @@ every escaped defect becomes a named lesson that lives in code comments and
 in the tests. Not textbook theory — a checklist of what actually broke and
 how it got caught.
 
+## How this differs from generic testing skills
+
+Most testing-related agent skills teach TDD or a general checklist: write
+tests first, cover the happy path, watch coverage. This one is built around
+a single inverted question — *which test tried to violate this rule?* — and
+the mechanics that make the answer trustworthy: refusal classification (who
+exactly refused — your code or the platform), honest branching when
+platforms behave differently, absence-of-side-effects assertions after every
+refusal, two evidence channels, negative-test reruns after migrations, and
+A/B baselines instead of bare thresholds. Every pattern corresponds to a
+defect that actually escaped and was caught.
+
 ## The core idea
 
 A requirement is covered only when a test shows that **violating it does not
