@@ -1,5 +1,9 @@
 # negative-test-first
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Format: agent skill](https://img.shields.io/badge/format-SKILL.md-orange)](SKILL.md)
+[![Discipline: negative test first](https://img.shields.io/badge/discipline-negative--test--first-2ea44f)](SKILL.md)
+
 An agent skill for the general testing discipline of any product with
 claims that must hold: business rules ("a withdrawal cannot exceed the
 balance"), data invariants ("balance equals the sum of movements"),

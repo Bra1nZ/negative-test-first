@@ -1,5 +1,9 @@
 # negative-test-first
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Format: agent skill](https://img.shields.io/badge/format-SKILL.md-orange)](SKILL.md)
+[![Discipline: negative test first](https://img.shields.io/badge/дисциплина-негатив%20тест%20первым-2ea44f)](SKILL.md)
+
 Скилл для агентов-программистов: общая дисциплина тестирования любого
 продукта, у которого есть заявления, которые обязаны выполняться. Бизнес-правила
 («нельзя списать больше, чем на счету»), инварианты данных («баланс равен сумме
